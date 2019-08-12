@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+body {
+  color: #333;
+}
+
+a {
+  color: #996;
+}
+
+a:hover {
+  color: #960;
+}
+
+.topicPath {
+  font-size: 12px;
+}
+
+.pagetop {
+  font-size: 12px;
+  text-align: right;
+  margin-top: 30px;
+}
+
+.pagetop a {
+  background-image: url(../images/ico_pagetop.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 10px;
+}
+
+#pageHead #siteTitle {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 0;
+  font-family: 'Fredoka One', cursive;
+}
+
+#pageHead #catchcopy {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+
+#pageHead .globalNavi {
+  border: solid #CCC;
+  border-width: 1px 0;
+  padding: 10px 0;
+}
+
+#pageHead .globalNavi ul {
+  margin: 0;
+  padding: 0;
+}
+
+#pageHead .globalNavi ul::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+#pageHead .globalNavi ul li {
+  list-style: none;
+  width: 25%;
+  float: left;
+  border-left: solid 1px #CCC;
+  padding: 0 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.429;
+}
+
+#pageHead .globalNavi ul li:first-child {
+  border-left: none;
+}
+
+#pageHead .globalNavi ul li a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+}
+
+#pageHead .globalNavi ul li a:hover,
+#pageHead .globalNavi ul li.current a {
+  background-color: #F2F2E5;
+}
+
+#pageFoot #copyright small {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#pageBody {
+  /* background-color: #FFCC66;
+  border: solid 10px #F00; */
+  margin-top: 30px;
+}
+
+#pageBody::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#pageBodyMain {
+  width: 720px;
+  float: left;
+  /* background-color: #66C; */
+}
+
+#pageBodySub {
+  width: 220px;
+  float: right;
+  /* background-color: #99F; */
+}
+
+#pageBodySub h2 {
+  font-size: 16px;
+  line-height: 1.375;
+  padding: 5px;
+  margin-top: 0;
+  border-bottom: solid 1px #CCC;
+}
+
+#pageBodySub .newsList ul {
+  list-style: none;
+  padding: 0;
+}
+
+#pageBodySub .newsList ul li {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 10px 5px;
+}
+
+#pageBodySub .newsList ul li time {
+  font-weight: bold;
+  display: block;
+}
+
+#pageBodySub .localNavi ul {
+  margin: 0 0 30px;
+  padding-left: 0;
+}
+
+#pageBodySub .localNavi ul li {
+  font-size: 14px;
+  line-height: 1.429;
+  margin-bottom: 12px;
+  background-image: url("../images/ico_arrow.png");
+  list-style-type: none;
+  background-repeat: no-repeat;
+  background-position: 0 8px;
+  padding-left: 10px;
+}
+
+#pageFoot {
+  border-top: solid 1px #CCC;
+  margin-top: 15px;
+}
+
+#pageBodyMain p {
+  font-size: 14px;
+  line-height: 1.429;
+}
+
+#pageBodyMain ul li {
+  font-size: 14px;
+  list-style-type: square;
+  line-height: 1.429;
+}
+
+#pageBodyMain table {
+  border: 1px solid #CCC;
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 100%;
+  line-height: 1.429;
+}
+
+#pageBodyMain table th,
+#pageBodyMain table td {
+  border: 1px solid #CCC;
+  padding: 5px 10px;
+}
+
+#pageBodyMain table th {
+  background-color: #EEE;
+  text-align: left;
+}
+
+#pageBodyMain table caption {
+  text-align: left;
+  font-weight: bold;
+}
+
+figure {
+  margin: 0;
+}
+
+#pageBodyMain figcaption {
+  font-size: 12px;
+}
+
+#page {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#pageBodyMain .pageTitle {
+  font-size: 26px;
+  background-color: #F2F2E5;
+  padding: 5px 15px;
+  line-height: 1.231;
+  margin-top: 0;
+}
+
+#pageBodyMain .heading-typeA {
+  font-size: 18px;
+  color: #349FA6;
+  border-bottom: solid 1px #349FA6;
+  padding: 5px;
+  line-height: 1.333;
+}
+
+#pageBodyMain .heading-typeB {
+  font-size: 16px;
+  border-left: solid 5px #E3E4D9;
+  padding-left: 10px;
+  line-height: 1.375;
+}
+
+#pageBodyMain .heading-typeC {
+  font-size: 14px;
+  line-height: 1.429;
+}
+
+#pageBodyMain .articleDetailHead {
+  border-bottom: solid 1px #CCC;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+#pageBodyMain .articleDetailFoot {
+  border-top: solid 1px #CCC;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+#pageBodyMain .articleDetailBody section {
+  margin: 30px 0;
+}
+
+#pageBodyMain .creditUnit {
+  border: solid 1px #CCC;
+  padding: 10px;
+}
+
+#pageBodyMain .creditUnit p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+#pageBodyMain .imageCenter {
+  text-align: center;
+  border-bottom: 1px dotted #CCC;
+  padding-bottom: 30px;
+  margin: 30px 0;
+}
+
+#pageBodyMain .btn a {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFF;
+  background-color: #058BA9;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, #92CDDB, #058BA9);
+  border: solid 1px #058BA9;
+  box-shadow: 1px 1px 0 #9DDDED inset;
+  text-shadow: 0px -1px 0 #333;
+  display: inline-block;
+}
+
+#pageBodyMain .btn a:hover {
+  opacity: 0.7;
+}
+
+#pageBodyMain .btn {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 30px 0;
+  border-bottom: 1px dotted #CCC;
+}
+
+#pageBodyMain .articleList {
+  border: solid 1px #CCC;
+  margin-bottom: 30px;
+}
+
+#pageBodyMain .articleList a {
+  display: block;
+  padding: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+#pageBodyMain .articleList a .articleListText {
+  float: right;
+  width: 370px;
+}
+
+#pageBodyMain .articleList a .articleListImage {
+  float: left;
+  width: 300px;
+}
+
+#pageBodyMain .articleList a::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#pageBodyMain .articleList a:hover {
+  opacity: 0.7;
+}
+
+#pageBodyMain .articleList a .articleListText h1 {
+  font-size: 26px;
+  line-height: 1.308;
+}
+
+#pageBodyMain .articleList a .articleListText p {
+  font-size: 14px;
+  line-height: 1.429;
+}
+
+#pageBodyMain .articleList a .articleListImage img {
+  vertical-align: bottom;
+}
+
+#pageBody .mainVisual {
+  position: relative;
+}
+
+#pageBody .mainVisual img {
+  vertical-align: bottom;
+}
+
+#pageBody .mainVisual .mainVisualText {
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 400px;
+  padding: 15px 25px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+#pageBody .mainVisual .mainVisualText h1 {
+  font-size: 26px;
+  line-height: 1.231;
+  margin: 0;
+}
+
+#pageBody .mainVisual .mainVisualText p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+#pageBody .mainVisual ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#pageBody .mainVisual ul li {
+  position: relative;
+}
+
+#pageBody .portfolioIndex article {
+  float: left;
+  width: 300px;
+  margin-left: 40px;
+}
+
+#pageBody .portfolioIndex article:first-child {
+  margin-left: 0;
+}
+
+#pageBody .portfolioIndex article h2 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+#pageBody .portfolioIndex article p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+#pageBody .portfolioIndex {
+  margin-top: 40px;
+}
+
+#pageBody .portfolioIndex::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#pageBody .news table tr th,
+#pageBody .news table tr td {
+  font-size: 14px;
+  line-height: 1.429;
+  border-bottom: 1px dotted #CCC;
+  padding: 10px 0;
+  vertical-align: top;
+}
+
+#pageBody .news table tr th {
+  white-space: nowrap;
+  padding-right: 30px;
+}
+
+#pageBody .news table {
+  width: 100%;
+}
+
+#pageBody .news table tr td {
+  width: 100%;
+}
+
+#pageBody .news h1 {
+  font-size: 20px;
+  border-bottom: 1px solid #CCC;
+  padding: 5px 0;
+}
+
+#pageBody .news {
+  margin-top: 40px;
+}
+
+#pageBodyMain .creditUnitText {
+  float: right;
+  width: 378px;
+}
+
+#pageBodyMain .creditUnitMap {
+  float: left;
+  width: 300px;
+}
+
+#pageBodyMain .creditUnit::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+#pageBodyMain .creditUnitMap iframe {
+  vertical-align: bottom;
+}
